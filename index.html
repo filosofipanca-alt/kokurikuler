@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Karapan Sapi Interactive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Portal Karapan Sapi Interactive</h1>
+        <p>Mengenal budaya balap sapi khas Madura dalam bentuk digital interaktif.</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#sejarah">Sejarah</a>
+        <a href="#aturan">Aturan Lomba</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#simulasi">Simulasi</a>
+    </nav>
+
+    <!-- SEJARAH -->
+    <section id="sejarah">
+        <h2>Sejarah Karapan Sapi</h2>
+        <p>
+            Karapan Sapi adalah tradisi balap sapi yang berasal dari Pulau Madura, Jawa Timur. 
+            Tradisi ini sudah ada sejak ratusan tahun lalu dan menjadi ikon kebanggaan masyarakat Madura.
+        </p>
+    </section>
+
+    <!-- ATURAN -->
+    <section id="aturan">
+        <h2>Aturan Perlombaan</h2>
+        <ul>
+            <li>Dua ekor sapi dijadikan satu pasangan.</li>
+            <li>Jarak lintasan sekitar 100 meter.</li>
+            <li>Sang joki berdiri di atas kayu yang menghubungkan kedua sapi.</li>
+            <li>Pemenang adalah pasangan sapi tercepat.</li>
+        </ul>
+    </section>
+
+    <!-- GALERI -->
+    <section id="galeri">
+        <h2>Galeri Karapan Sapi</h2>
+        <div class="gallery-container">
+            <img src="https://i.ibb.co/gTR061s/karapan1.jpg" alt="Karapan Sapi 1">
+            <img src="https://i.ibb.co/YhBm2Yj/karapan2.jpg" alt="Karapan Sapi 2">
+            <img src="https://i.ibb.co/x2LxL2V/karapan3.jpg" alt="Karapan Sapi 3">
+        </div>
+    </section>
+
+    <!-- SIMULASI -->
+    <section id="simulasi">
+        <h2>Simulasi Interaktif</h2>
+        <p>Tekan tombol untuk membuat sapi bergerak!</p>
+
+        <div class="track">
+            <img id="cow" src="https://i.ibb.co/qj8yv2w/cow.png" alt="Sapi" class="cow">
+        </div>
+
+        <button onclick="startRun()">Mulai Lari</button>
+        <button onclick="resetRun()">Reset</button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Portal Karapan Sapi Interactive — Budaya Madura Digital</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
